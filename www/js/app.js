@@ -92,7 +92,7 @@
                 setTimeout(function () {
                     $('.alert').removeClass('alert');
                     $('.visor').removeClass('pulse');
-                    $('.visor label').html('Hi!');
+                    $('.visor label').html('Start...');
                     $('.visor .eye').removeClass('faded');
                 }, 1750);
 
