@@ -28,7 +28,7 @@
             var config = parseAsJSON(text);
 
             // load defaults
-            config.address = config.address || '127.0.0.1:3000';
+            config.address = config.address || '10.0.1.8:3000';
             config.optIn = config.optIn || false;
             callback(config);
         });
