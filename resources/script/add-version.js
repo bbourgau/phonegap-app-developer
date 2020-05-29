@@ -21,7 +21,7 @@ module.exports = function(ctx) {
     if(err) {
       deferral.reject(err);
     }
-    
+    console.log('Add Version - versionText= ',versionText);
     var updatedIndex = indexData.replace(/%PHONEGAP_APP_VERSION%/, versionText);
     
     fs.writeFile(indexPath, updatedIndex,'utf-8', function(err) {
